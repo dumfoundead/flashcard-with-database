@@ -1,16 +1,35 @@
 {
-  "posts":[
+  "decks": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "name": "Frontend Interview",
+      "description": "",
+      "id": 1
     }
   ],
-  "comments" : [
+  "cards": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "front": "What is DOM and what does it contain?",
+      "back": "DOM is the data representation of the HTML elements that make up the structure of a web page. It resembles a family tree, containing a root element and its children.",
+      "deckId": 1,
+      "id": 1
+    },
+    {
+      "front": "What is React and why do we use it?",
+      "back": "React is a JavaScript library that is used for building user interfaces for single-page applications. It allows us to create reusable UI components, which allows us to create large web applications that can change data without reloading the page. This makes it fast, scalable, and simple.",
+      "deckId": 1,
+      "id": 2
+    },
+    {
+      "front": "What are React Hooks?",
+      "back": "React Hooks are built-in functions that allow us to use state and lifecycle methods inside functional components. It allows functional components to render UI and handle state and logic.",
+      "deckId": 1,
+      "id": 3
+    },
+    {
+      "front": "What is the difference between state and props?\n",
+      "back": "State is an updatable structure that is used to contain data or information about a component and can change over time. These changes can happen as a response to a user action or system event. Props are immutable and allow you to pass data from one component to other components as an argument.",
+      "deckId": 1,
+      "id": 4
     }
   ]
 }
